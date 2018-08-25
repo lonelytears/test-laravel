@@ -1,0 +1,124 @@
+/*
+* @Author: 王茂（合作方）
+* @Date:   2018-07-12 10:07:50
+* @Last Modified by:   王茂（合作方）
+* @Last Modified time: 2018-07-27 17:11:37
+*/
+
+.container {
+    /*margin: 10px 0;*/
+    margin: 10px;
+}
+
+.page-bd-15 {
+    padding: 0 15px;
+}
+
+.nav_header{
+    margin-top: 8px;
+}
+
+.nav_header .weui-flex__item{
+    margin:12px;
+}
+
+.build_info_title{
+    font-weight: 600;
+    color: #000000;
+}
+
+.weui-media-box_appmsg .weui-media-box__hd {
+    width: 110px;
+    height: 66px;
+}
+
+.weui-cell .my_info_img_box{
+    width:160px;
+    height: 160px;
+    position: relative;
+    /*border:1px solid #000;*/
+}
+
+.weui-cell .my_info_img_box img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+/*新增颜色*/
+ul,li{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.my_info_btn{
+    position: relative;
+    bottom:-30px;
+}
+#submit_order_building{
+    color:#000000;
+}
+#submit_order_room{
+    color:#000000;
+}
+.bg_color_building{
+    background-color: #EFEFEF;
+    margin-bottom:0;
+    /*margin-top:5px;*/
+}
+.bg_color_unit{
+    background-color: #EFEFEF;
+    margin-top: 0;
+}
+.bg_color_unit input{
+    color:#000000;;
+}
+.AddButtonBox{
+    margin-top:10px;
+    /*border:1px dashed #ddd;*/
+    width:100%;
+    height:100px;
+}
+#AddButton{
+    height:100px;
+    position:relative;
+    text-align: center;
+}
+#AddButton img{
+    width:30px;
+    height:30px;
+    padding-top: 18px;
+}
+.AddButtonBox p{
+    color:#434343;
+    font-size: 13px;
+    text-align: center;
+}
+#InputsWrapperBox{
+    border:1px dashed #ddd;
+    padding: 3px;
+}
+.weui-cell__ft{
+    right:0;
+    top:0;
+    position: absolute;
+}
+
+.card_title{
+    font-size: 14px;
+    padding:5px 10px;
+    background-color: #EFEFEF;
+}
+.card_del{
+    width:23px;
+    height:23px;
+    padding:0;
+    border:0 ;
+    vertical-align: 0;
+    position: absolute;
+    right: 10px;
+}
